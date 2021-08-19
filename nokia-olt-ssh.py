@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #-----------------------------------------------------------------------
-# Simple script to connecto with SSH to NOKIA / ALCATEL OLTs ISAN FX8, FX16
+# Simple script to connect with SSH to NOKIA / ALCATEL OLTs ISAN FX8, FX16
 # Written by Jorge Luiz Taioque
 #
 # Dependences python3 and netmiko
