@@ -12,7 +12,7 @@
 __author__ = 'Jorge Luiz Taioque'
 __version__= 1.0
 
-# impor netmiko library
+# import netmiko library
 from netmiko import ConnectHandler
 
 # To use other device type
@@ -20,7 +20,7 @@ from netmiko import ConnectHandler
 # juniper
 # juniper_junos
 
-# create paramiter of connections
+# create paramiters of connections
 nokia = {
 	'device_type': 'alcatel_aos',
 	'host': '10.10.10.1',
@@ -37,7 +37,7 @@ net_connect.find_prompt()
 #send command
 output = net_connect.send_command("show equipment slot")
 
-# get output
+# print output
 print (output)
 
 # disconect ssh connection
