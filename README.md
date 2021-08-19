@@ -11,7 +11,7 @@ apt install python3-netmiko<br>
 
 #### Example running command "show equipament slot"
 
-# ./nokia-olt-ssh.py 
+./nokia-olt-ssh.py 
 ================================================================================
 slot table
 ================================================================================
